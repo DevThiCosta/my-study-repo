@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+body {
+  
+  line-height: 1.6;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1, h2{
+  font-weight: bold;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 30px;
+  min-height: 70px;
+  
+}
+
+header h1 {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card-white {
+  background-color: rgba(10, 118, 190, 0.027); 
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  border: black 3px solid;
+}
+
+.card-white h1, .card-white h3 {
+  color: #35424a;
+}
+
+.card-white img {
+  display: block;
+  margin: 20px auto;
+  width: 25%;
+  border-radius: 50%;
+  border: black 3px solid;
+}
+
+.card-white p {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.card-white button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0); 
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Sora", sans-serif;
+}
+
+.card-white button:hover {
+  background-color: rgb(18, 109, 187);
+  color: #35424a;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  transition: 0.5s;
+  outline: none;
+}
+
+.card-white h2 {
+  text-align: center;
+  
+}
+
+.card-white ul {
+  list-style: none;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.card-white ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.card-white ul li:hover {
+  color:rgb(18, 109, 187);
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.card-white ul li a {
+  text-decoration: none;
+  color: #35424a;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.048); 
+  color: rgb(5, 5, 5);
+  text-align: center;
+}
+
+.fa-brands{
+  font-size: 50px;
+}
+.fa-brands:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.fa-square-instagram:hover{
+  color:  #c13584;
+}
+
+.fa-linkedin:hover{
+  color: rgb(10, 102, 194);
+}
+
+.fa-github:hover{
+  color: rgb(1, 4, 9);
+}
+
+.nav ul {
+  list-style: none;
+  position: fixed;
+  
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color:rgb(18, 109, 187);
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+}
